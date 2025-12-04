@@ -5,10 +5,9 @@ version = 3
 [[package]]
 name = "ff"
 version = "0.14.0-pre.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d42dd26f5790eda47c1a2158ea4120e32c35ddc9a7743c98a292accc01b54ef3"
+source = "git+https://github.com/Honey-Be/ff?branch=vwallet-compat#0c16651eab9df1ed9760dda733c2dd3f72cc3353"
 dependencies = [
- "rand_core 0.9.3",
+ "rand_core",
  "subtle",
 ]
 
@@ -19,7 +18,7 @@ dependencies = [
  "ff",
  "memuse",
  "rand",
- "rand_core 0.10.0-rc-2",
+ "rand_core",
  "rand_xorshift",
  "subtle",
 ]
@@ -36,14 +35,8 @@ version = "0.10.0-rc.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "be866deebbade98028b705499827ad6967c8bb1e21f96a2609913c8c076e9307"
 dependencies = [
- "rand_core 0.10.0-rc-2",
+ "rand_core",
 ]
-
-[[package]]
-name = "rand_core"
-version = "0.9.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "99d9a13982dcf210057a8a78572b2217b667c3beacbf3a0d8b454f6f82837d38"
 
 [[package]]
 name = "rand_core"
@@ -57,7 +50,7 @@ version = "0.5.0-rc.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "436a253927905fba96fc027756937b9d20e8e654e2622a6192a8037c3340dc35"
 dependencies = [
- "rand_core 0.10.0-rc-2",
+ "rand_core",
 ]
 
 [[package]]
